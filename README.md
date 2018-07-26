@@ -1,2 +1,2 @@
 # polinemaps
-:office: Polinema in Augmented Reality
+:city_sunset: Polinema in Augmented Reality
