@@ -11,15 +11,18 @@ public class BuildingSelect : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Input.GetMouseButton(0))
         {
-            Debug.Log(hit.transform.name);
-
-            if (hit.transform.name == "Cube")
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
             {
+                Debug.Log(hit.transform.name);
 
+                if (hit.transform.name == "Cube")
+                {
+
+                }
             }
         }
 	}
