@@ -19,9 +19,10 @@ public class BuildingSelect : MonoBehaviour {
             {
                 Debug.Log(hit.transform.name);
 
-                if (hit.transform.name == "Cube")
+                if (hit.transform.name == "Siti")
                 {
-
+                    var speed = 60;
+                    hit.transform.Rotate(0, -speed * Time.deltaTime, 0);
                 }
             }
         }
