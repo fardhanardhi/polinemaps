@@ -19,6 +19,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
     #region PROTECTED_MEMBER_VARIABLES
 
+    public Transform PanelScanMarker;
+    public Transform PanelMenu;
+
     protected TrackableBehaviour mTrackableBehaviour;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
@@ -93,6 +96,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+        PanelScanMarker.gameObject.SetActive(false);
+        PanelMenu.gameObject.SetActive(true);
     }
 
 
@@ -113,6 +120,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+        PanelScanMarker.gameObject.SetActive(true);
+        PanelMenu.gameObject.SetActive(false);
     }
 
     #endregion // PROTECTED_METHODS
