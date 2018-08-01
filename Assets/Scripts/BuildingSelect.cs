@@ -32,25 +32,33 @@ public class BuildingSelect : MonoBehaviour {
 
         if (Input.GetKeyDown("escape"))
         {
-            showDetail();
-            Debug.Log("esc");
+            showHideDetail();
         }
     }
 
-    public void showDetail()
+    public void showHideDetail()
     {
         if (isShowing == false)
         {
             scrollArea.gameObject.SetActive(true);
             isShowing = true;
-            Debug.Log("show");
         }
         else
         {
             scrollArea.gameObject.SetActive(false);
             isShowing = false;
-            Debug.Log("hide");
         }
     }
 
+    public void showDetail()
+    {
+        scrollArea.gameObject.SetActive(true);
+        isShowing = true;
+    }
+
+    public void hideDetail()
+    {
+        scrollArea.gameObject.SetActive(false);
+        isShowing = false;
+    }
 }
