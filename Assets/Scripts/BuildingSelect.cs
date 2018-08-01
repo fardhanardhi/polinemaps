@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class BuildingSelect : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public GameObject scrollArea;
+    private bool isShowing;
+
+    // Use this for initialization
+    void Start () {
+        isShowing = false;
+        scrollArea.gameObject.SetActive(isShowing);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -21,10 +25,32 @@ public class BuildingSelect : MonoBehaviour {
 
                 if (hit.transform.name == "Siti")
                 {
-                    var speed = 60;
-                    hit.transform.Rotate(0, -speed * Time.deltaTime, 0);
+                    showDetail();
                 }
             }
         }
-	}
+
+        if (Input.GetKeyDown("escape"))
+        {
+            showDetail();
+            Debug.Log("esc");
+        }
+    }
+
+    public void showDetail()
+    {
+        if (isShowing == false)
+        {
+            scrollArea.gameObject.SetActive(true);
+            isShowing = true;
+            Debug.Log("show");
+        }
+        else
+        {
+            scrollArea.gameObject.SetActive(false);
+            isShowing = false;
+            Debug.Log("hide");
+        }
+    }
+
 }
