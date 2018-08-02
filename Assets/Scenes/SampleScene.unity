@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 519386696}
   - component: {fileID: 519386695}
   m_Layer: 5
-  m_Name: Text
+  m_Name: InfoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 673746698}
   - component: {fileID: 673746697}
   m_Layer: 0
-  m_Name: ImageTarget (1)
+  m_Name: 7Clubs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +705,7 @@ Transform:
   m_Children:
   - {fileID: 794243840}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &789280393
 Prefab:
@@ -765,10 +765,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d9f7cf258991974db5be2da021b3d48, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &794243839 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5d9f7cf258991974db5be2da021b3d48, type: 3}
+  m_PrefabInternal: {fileID: 789280393}
 --- !u!4 &794243840 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5d9f7cf258991974db5be2da021b3d48, type: 3}
   m_PrefabInternal: {fileID: 789280393}
+--- !u!65 &794243843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794243839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.460007, y: 19.605133, z: 14.373342}
+  m_Center: {x: -1.4471444, y: 9.602566, z: 0.0000019073493}
 --- !u!1 &870577613
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946629553
 GameObject:
@@ -1354,7 +1370,7 @@ GameObject:
   - component: {fileID: 1469897875}
   - component: {fileID: 1469897874}
   m_Layer: 5
-  m_Name: Text
+  m_Name: AlertText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1497,7 +1513,7 @@ GameObject:
   - component: {fileID: 1489620029}
   - component: {fileID: 1489620028}
   m_Layer: 5
-  m_Name: Text
+  m_Name: CloseButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1778,7 +1794,7 @@ RectTransform:
   - {fileID: 1553710304}
   - {fileID: 946629554}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1933,6 +1949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollArea: {fileID: 946629553}
+  infoText: {fileID: 519386695}
 --- !u!4 &1918240648
 Transform:
   m_ObjectHideFlags: 0
@@ -1944,7 +1961,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2008717886
 GameObject:
@@ -1959,7 +1976,7 @@ GameObject:
   - component: {fileID: 2008717888}
   - component: {fileID: 2008717891}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,6 +2098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollArea: {fileID: 946629553}
+  infoText: {fileID: 0}
 --- !u!1001 &2092293830
 Prefab:
   m_ObjectHideFlags: 0
