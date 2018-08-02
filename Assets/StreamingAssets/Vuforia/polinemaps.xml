@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="7clubs" size="0.600000 0.810462" />
-    <ImageTarget name="ar_marker" size="1.000000 1.000000" />
-    <ImageTarget name="1clubs" size="0.600000 0.810462" />
+    <ImageTarget name="SITI" size="10.000000 10.546875" />
+    <ImageTarget name="TEKS_POLINEMA" size="10.000000 10.546875" />
+    <ImageTarget name="MASJID" size="10.000000 10.546875" />
+    <ImageTarget name="MASJID_RAYA" size="10.000000 10.546875" />
+    <ImageTarget name="KANTIN" size="10.000000 10.546875" />
+    <ImageTarget name="GRAPOL" size="10.000000 10.546875" />
+    <ImageTarget name="AW" size="10.000000 10.546875" />
+    <ImageTarget name="AV" size="10.000000 10.546875" />
+    <ImageTarget name="AU" size="10.000000 10.546875" />
+    <ImageTarget name="AT" size="10.000000 10.546875" />
+    <ImageTarget name="AS" size="10.000000 10.546875" />
+    <ImageTarget name="AR" size="10.000000 10.546875" />
+    <ImageTarget name="AQ" size="10.000000 10.546875" />
+    <ImageTarget name="AP" size="10.000000 10.546875" />
+    <ImageTarget name="AO" size="10.000000 10.546875" />
+    <ImageTarget name="AN" size="10.000000 10.546875" />
+    <ImageTarget name="AM" size="10.000000 10.546875" />
+    <ImageTarget name="AL" size="10.000000 10.546875" />
+    <ImageTarget name="AK" size="10.000000 10.546875" />
+    <ImageTarget name="AJ" size="10.000000 10.546875" />
+    <ImageTarget name="AI" size="10.000000 10.546875" />
+    <ImageTarget name="AH" size="10.000000 10.546875" />
+    <ImageTarget name="AG" size="10.000000 10.546875" />
+    <ImageTarget name="AF" size="10.000000 10.546875" />
+    <ImageTarget name="AE" size="10.000000 10.546875" />
+    <ImageTarget name="AD" size="10.000000 10.546875" />
+    <ImageTarget name="AC" size="10.000000 10.546875" />
+    <ImageTarget name="AB" size="10.000000 10.546875" />
+    <ImageTarget name="AA" size="10.000000 10.546875" />
   </Tracking>
 </QCARConfig>

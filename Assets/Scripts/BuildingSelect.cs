@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class BuildingSelect : MonoBehaviour {
 
     public GameObject scrollArea;
     public Text infoText;
     private bool isShowing;
-    private string detailsText;
+    public string detailsText;
 
     // Use this for initialization
     void Start () {
+        detailsText = "";
         isShowing = false;
         scrollArea.gameObject.SetActive(isShowing);
     }
@@ -20,6 +22,7 @@ public class BuildingSelect : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButton(0))
         {
+            detailsText = "";
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
@@ -73,7 +76,14 @@ public class BuildingSelect : MonoBehaviour {
 
     public void showDetail(string detailsText)
     {
-        infoText.text = detailsText;
+        try
+        {
+            infoText.text = detailsText;
+        }
+        catch (NullReferenceException ex)
+        {
+            Debug.Log("myLight was not set in the inspector");
+        }
         scrollArea.gameObject.SetActive(true);
         isShowing = true;
     }
