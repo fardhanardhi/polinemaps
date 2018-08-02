@@ -1,39 +1,62 @@
 fileFormatVersion: 2
-guid: 2615320a7770efc459a45bcb1e34e6dd
+guid: 5d9f7cf258991974db5be2da021b3d48
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material
-    2100002: biru
-    2100004: dinding
-    2100006: kaca
+    2100000: Kubah.Putih
+    2100002: Kubah.Birutua
+    2100004: Kubah.Hitam
+    2100006: Kubah.Kuning
+    2100008: Tembok.Birutua
+    2100010: Kaca.Hitam
+    2100012: Lantai.Putih
+    2100014: Tembok.Birumuda
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
-    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: biru
-    second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: dinding
-    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: kaca
+      name: Kaca.Hitam
     second: {fileID: 2100000, guid: 206d966baf7c6ce46ba41b2aec7842f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kubah.Birutua
+    second: {fileID: 2100000, guid: a4524ff6d2f14dc42a01a4073c9309ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kubah.Hitam
+    second: {fileID: 2100000, guid: 6c47f2ed84dd3a947ad8604ace6a76c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kubah.Kuning
+    second: {fileID: 2100000, guid: cadd520502260424db8f9581497bea0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kubah.Putih
+    second: {fileID: 2100000, guid: 97b589092e6118d40b8b78fdfcd36850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantai.Putih
+    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok.Birumuda
+    second: {fileID: 2100000, guid: 3fbfb84da204ad447817ee92041194cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok.Birutua
+    second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
