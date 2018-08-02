@@ -12,7 +12,27 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Biru
+    second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Biru Putih
+    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dasar
+    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hitam
+    second: {fileID: 2100000, guid: 206d966baf7c6ce46ba41b2aec7842f3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -16,7 +16,42 @@ ModelImporter:
     3300000: //RootNode
     4300000: Cube
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Biru
+    second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Biru Muda
+    second: {fileID: 2100000, guid: 3fbfb84da204ad447817ee92041194cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dasar
+    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantai Panggung
+    second: {fileID: 2100000, guid: fe809c30c178a204bb80df2638dc8776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantai Penonton
+    second: {fileID: 2100000, guid: c78efcbb599dbaa4fa20580b371dbc60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Samping Lantai Panggung
+    second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tangga
+    second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
