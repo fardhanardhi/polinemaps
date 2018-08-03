@@ -5,10 +5,9 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material
+    2100000: Dasar
     2100002: biru
-    2100004: dinding
-    2100006: kaca
+    2100004: kaca
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
@@ -17,18 +16,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
+      name: Dasar
     second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: biru
     second: {fileID: 2100000, guid: 8492fe6545563914380cce7e49e071b7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: dinding
-    second: {fileID: 2100000, guid: 321ca2181755168488179db5d8420fd2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
