@@ -245,7 +245,7 @@ public class BuildingSelect : MonoBehaviour {
         {
             infoText.text = detailsText;
         }
-        catch (NullReferenceException ex)
+        catch (NullReferenceException)
         {
             Debug.Log("myLight was not set in the inspector");
         }
