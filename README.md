@@ -1,5 +1,7 @@
 # Polinemaps
-:city_sunset: Polinema in Augmented Reality
+🎓 Polinema in Augmented Reality
+
+[work in progress]
 
 Made with Unity3D Engine and Vuforia AR Plugin
 
