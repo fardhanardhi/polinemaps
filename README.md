@@ -1,7 +1,10 @@
 # Polinemaps
-🎓 Polinema in Augmented Reality
 
-[work in progress]
+**WARNING** this is experimental!
+
+---
+
+🎓 Polinema in Augmented Reality
 
 Made with Unity3D Engine and Vuforia AR Plugin
 
