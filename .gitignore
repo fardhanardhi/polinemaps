@@ -4,6 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/Editor/WakaTime/
+Assets/Editor/WakaTime*
 
 # Visual Studio cache directory
 .vs/
