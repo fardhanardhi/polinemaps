@@ -23,4 +23,4 @@ Made with Unity3D Engine and Vuforia AR Plugin
 - [x] UI scanner detection
 
 ## Screenshots
-Coming soon!
+![Gameplay](https://github.com/fardhanardhi/polinemaps/blob/master/images/ss.png?raw=true "Polinemaps Gameplay")
